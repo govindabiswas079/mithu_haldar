@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+body {
+    scroll-behavior: smooth;
+    font-family: poppins,sans-serif;
+}
+
+ /* navbar opens  */
+.superContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        /* background: rgb(45, 42, 42); */
+        z-index: 1;
+}
+
+ 
+.alogo {
+    width: 100px;
+    /* height: 0px;6 */
+    padding-left: 20px;
+}
+.navbar-nav
+.nav-item{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding:0px 10px;
+}
+.navbar-nav
+.nav-item
+a:hover{
+    
+    color: #2162C1;
+}
+
+.active-nav{
+    color:#1551b1 ;
+}
+/* navbarends */
+
+/* banner */
+.banner {
+    background-image: linear-gradient(skyblue, white, skyblue);
+    border-radius: 5px;
+}
+
+.banImgLogo {
+    width: 150px;
+    height: 150px;
+}
+
+.bannerHeading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.bannerHeading h1{
+    margin-bottom:30px;
+}
+.heading1 {
+    text-align:justify;
+    background-color: #2162C1;
+    color: aliceblue;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+
+.vipImg {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-md-3 .imageRow {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    border: 4px solid #2162C1;
+}
+
+.nameHeading {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #082E66;
+    text-align: justify;
+}
+
+.nameSubHeading{
+    font-size: 20px;
+    text-align: left;
+}
+
+.nameDes{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* vision Section Start */
+.visionndmission{
+    background-color: rgb(247, 241, 241);
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 10px 0px; */
+}
+.imgvision{
+    width: 250px;
+    height: 250px;
+    /* margin: 20px; */
+    border-radius: 10px;
+}
+.vision1{
+    color: #2162C1;
+    text-align:justify;
+    margin-top:50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+}
+.vision{
+    font-size: 38px;
+    font-weight: 600;
+    color: #2162C1;
+    text-align:justify;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vision .span{
+    font-size: 44px;
+}
+
+.para{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+/* vision Section end */
+
+/* slider image */
+.carousel-control-next, .carousel-control-prev {
+    z-index: 0;
+}
+
+/* course section start */
+.fswdnav{
+    background-color: #2F6CC5;
+    list-style-type:none ;
+    border-radius: 5px;
+}
+.aNav{
+    color: bisque;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.tech{
+    text-align: center;
+    padding: 20px;
+}
+.tech:hover{
+    /* background-color: #082E66; */
+    text-shadow: 5px 5px 10px rgb(24, 24, 73);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.fswdHeading {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #082E66;
+    text-align: left;
+}
+
+.fswdDes{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.fswdHeading1{
+    font-weight: 600;
+    text-align: justify;
+    font-size: 24px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-top: 30px; */
+}
+.fswdDes1 {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.imgfswd{
+    width: 250px;
+    border-radius: 10px;
+}
+/* course section ends */
+
+/* enrollment section starts*/
+.enrollImg{
+    width: 60px;
+    height: 60px;
+}
+.enrollDes{
+    font-size: 18px;
+    text-align: left;
+}
+/* enrollment section end */
+
+/* mock interview section  starts*/
+.mockImg{
+    width: 350px;
+    border-radius: 5px;
+}
+.mockHeading{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.mockDes{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.mockHeading1{
+    color: #082E66;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.mockDes1{
+    text-align: justify;
+    font-size: 18px;
+}
+/* mock interview section ends */
+
+
+/* learning outcomes section */
+
+.loHeading {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.loDes{
+    font-size: 18px;
+    text-align: center;
+    text-align: justify;
+}
+.loHeading1{
+    color: #082E66;
+    font-weight: 600;
+    text-align: justify;
+    font-size: 24px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-top: 30px; */
+}
+.loDes1 {
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* benefits section */
+/* .nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color:white;
+    --bs-nav-pills-link-active-bg: #082E66;
+   
+      }
+      .navButton{
+        box-shadow: 4px 4px 10px lightblue;
+        margin: 10px;
+      } */
+      .beneHeading{
+        color: navy;
+        font-weight: 700;
+      }
+      .benePara{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .beneBack{
+        /* width: 50%; */
+        background-color: #eaf1fd;
+        /* padding: 100px; */
+        border-radius: 5px;
+      }
+
+/* block level section */
+.blDes{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.blmap{
+    height: 250px;
+}
+.aDis{
+    color: #2F6CC5;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* written Reviews  statrts*/
+
+/* this section css is in other file /css/silstyle.css and /css/swiper-bundle.min.css */
+
+/* written Review ends */
+
+
+/* learning management system */
+.lmsImg {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 30px;
+}
+.lmsSub{
+    font-size: 22px;
+    font-weight: 500;
+}
+.lmsDes{
+    font-size: 18px;
+    font-weight: 600;
+}
+.dlBack{
+    background-image: linear-gradient(#eafdf1,#f6f6f7,#eafdf1);
+    border-radius: 10px;
+}
+
+.dlRow{
+        padding-top: 30px;
+}
+
+.lpImg{
+    width: 80%;
+    padding: 5px;
+    border: 2px solid #5778b1;
+    border-radius: 10px;
+}
+.lpHeading{
+    text-align: left;
+    color: #082E66;
+    font-weight: 600;
+}
+.lpDes{
+    text-align: justify;
+}
+
+/* form css */
+.form {
+    background-color:#eaf1fd;
+    width: fit-content;
+    padding: 10px 30px;
+}
+label{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #082E66;
+    font-weight:500;
+    padding: 10px;
+}
+
+input:-internal-autofill-selected {
+ background-color: #fff!important;
+ background:#fff;
+ color: #5781c9 !important;
+
+}
+  .student-form input[type="text"], .student-form input[type="email"],
+  .student-form input[type="tel"], .student-form select {
+    padding: 5px;
+    font-size: 16px;
+    width:100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    color:#5781c9 ;
+    background-color: #fff!important;
+    background: #fff;
+}
+::placeholder{
+    color: #5781c9;
+    background-color: #fff;
+    padding-left: 10px;
+}
+.subBtn{
+    background-color: #2162C1;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+   text-align: center;
+   margin-top:20px ;
+   background-color: #2f6cc5;
+}
+footer hr{
+    padding: 0px;
+}
+.contact {
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 70px;
+}
+.contact ul {
+    list-style: none;   
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.learn {
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+
+i{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* media query for max-width 600px */
+@media screen and (max-width:767px) {
+    .navbar-nav .nav-item{
+        padding-left: 20px;
+    }
+
+    .vipImg{
+        margin-bottom: 30px;
+    }
+    .vision{
+        font-size: 30px;
+    }
+    .vision .span{
+        font-size: 38px;
+        /* font-weight: 600; */
+    }
+
+    .vision1{
+        margin-top: 5px;
+    }
+
+    .beneBack{
+      width:100%;
+      padding: 50px;
+      margin: 20px;
+    } 
+
+    .dlRow{
+        padding-top: 0px;
+    }
+
+    .blDis{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .row1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mockHeading .mockHeading1{
+        margin-top: 100px;
+    }
+    .heading{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .reVideo{
+        width: 190px;
+    }
+    .video{
+        width: 335px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .description{
+        font-size: 16px;
+        text-align: center;
+    }
+    .enrollDes{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .aDis{
+        padding-left:10px ;
+    }
+    .map{
+        width:300px
+    }
+    .testimonial{
+        padding: 0px;
+    }
+  }
